@@ -1,4 +1,4 @@
 #!/bin/bash
-python3 <<< $PYCODE
 
-
+# Get the Python code from the environment variable
+python3 <<< "$PYCODE"
